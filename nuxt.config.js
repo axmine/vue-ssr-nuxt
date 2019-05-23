@@ -38,7 +38,7 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: config.favicon },
       ...config.css
     ],
-    script: config.js
+    script: [...config.js]
   },
 
   /*
